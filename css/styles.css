@@ -1,0 +1,237 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: silver;
+}
+a {
+  text-decoration: none;
+  color: #000;
+}
+main {
+  width: 90%;
+  max-width: 411px;
+  height: 94vh;
+  background-color: #fff;
+  margin: 1em auto;
+  border-radius: 3px;
+}
+
+/** start of index **/
+
+img {
+  height: 80px;
+  width: 80px;
+}
+figure {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#entry-image {
+  margin-top: 12em;
+}
+.eve {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.heading {
+  font-size: 2em;
+  font-family: Comfortaa;
+  font-style: normal;
+  font-weight: bold;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #3e476a;
+  line-height: 1.68em;
+}
+.event {
+  font-family: SF Pro Display;
+  font-size: 1.5em;
+  line-height: 1.2em;
+  color: #878fad;
+  text-align: center;
+  padding: 1em;
+  max-width: 13em;
+}
+.but-group {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 5em;
+}
+.btn {
+  width: 19.68em;
+  height: 2.7em;
+  justify-content: center;
+  align-items: center;
+}
+#signup {
+  background: linear-gradient(90deg, #59a1ff 19.89%, #3d67f2 100%);
+  border-radius: 3px;
+  border: 1px solid #fff;
+  color: #fff;
+  text-align: center;
+  padding-top: 0.7em;
+  margin-bottom: 1em;
+}
+#login {
+  background-color: #fff;
+  color: #3d8bf2;
+  border: 1px solid #3d8bf2;
+  border-radius: 3px;
+  text-align: center;
+  padding-top: 0.7em;
+}
+.skipclass {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 3em;
+}
+.skipclass a {
+  color: #3d8bf2;
+  font-size: 1em;
+}
+/** end of index **/
+/** start of signup **/
+
+.logo {
+  margin-top: 4em;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 3em;
+}
+input {
+  width: 23.68em;
+  height: 2.7em;
+  margin-bottom: 1.5em;
+  background-color: #f2f5fa;
+  font-family: SF Pro Display;
+  border: 1px solid #f2f5fa;
+  padding: 1em;
+  color: #a6acc3;
+  border-radius: 3px;
+}
+input:hover {
+  border: 1px solid #3d8bf2;
+}
+.fa-eye-slash {
+  position: absolute;
+  top: 20.7em;
+  left: 57.4em;
+  color: #a6acc3;
+}
+#signup-m {
+  width: 23.68em;
+  background: linear-gradient(90deg, #59a1ff 19.89%, #3d67f2 100%);
+  border-radius: 3px;
+  border: 1px solid #fff;
+  color: #fff;
+  text-align: center;
+}
+.OR {
+  width: 100%;
+  max-width: 20em;
+  text-align: center;
+  border-bottom: 1px solid #e4e6eb;
+  line-height: 0.1em;
+  margin-top: 2.5em;
+  color: #878fad;
+}
+
+.OR span {
+  background: #fff;
+  padding: 0 10px;
+}
+.but-group-1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2em;
+}
+.btn-g {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  width: 20em;
+  border: 1px solid #e4e6eb;
+  height: 2.5em;
+  border-radius: 3px;
+  margin-bottom: 1em;
+}
+.btn-g1 {
+  background-color: #4a6ea8;
+}
+.g-logo {
+  height: 2.4em;
+  width: 2.3em;
+  border-bottom-left-radius: 3px;
+  border-top-left-radius: 3px;
+  object-fit: fill;
+  border-right: 1px solid #e4e6eb;
+  padding: 0.5em;
+}
+.btn-g a {
+  padding-left: 2em;
+}
+.fb-writeup {
+  color: #ffffff;
+  font-size: 1em;
+  font-family: SF Pro Display;
+}
+
+.terms {
+  font-family: SF pro Display;
+  font-size: 0.9em;
+  width: 100%;
+  margin: 1.2em auto;
+  max-width: 21em;
+  text-align: center;
+  color: #878fad;
+  font-weight: 400;
+}
+.ac-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.ac {
+  margin-top: 1em;
+  color: #878fad;
+}
+.t-a {
+  color: #3d8bf2;
+}
+@media screen and (max-width: 768px) {
+  .fa-eye-slash {
+    position: absolute;
+    top: 20.7em;
+    left: 23.4em;
+    color: #a6acc3;
+  }
+}
+/** end of signup **/
+
+/** start login **/
+.logo-m {
+  margin-top: 6em;
+  margin-bottom: 1.5em;
+}
+.forget-pass {
+  margin-top: 1em;
+}
+.ac2 {
+  margin-top: 2.4em;
+}
