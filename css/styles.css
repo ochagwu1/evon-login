@@ -41,7 +41,7 @@ figure {
 }
 .heading {
   font-size: 2em;
-  font-family: Comfortaa;
+  font-family: "Comfortaa";
   font-style: normal;
   font-weight: bold;
   text-align: center;
@@ -50,7 +50,7 @@ figure {
   line-height: 1.68em;
 }
 .event {
-  font-family: SF Pro Display;
+  font-family: "SF Pro Display";
   font-size: 1.5em;
   line-height: 1.2em;
   color: #878fad;
@@ -116,7 +116,7 @@ input {
   height: 2.7em;
   margin-bottom: 1.5em;
   background-color: #f2f5fa;
-  font-family: SF Pro Display;
+  font-family: "SF Pro Display";
   border: 1px solid #f2f5fa;
   padding: 1em;
   color: #a6acc3;
@@ -189,11 +189,11 @@ input:hover {
 .fb-writeup {
   color: #ffffff;
   font-size: 1em;
-  font-family: SF Pro Display;
+  font-family: "SF Pro Display";
 }
 
 .terms {
-  font-family: SF pro Display;
+  font-family: "SF pro Display";
   font-size: 0.9em;
   width: 100%;
   margin: 1.2em auto;
